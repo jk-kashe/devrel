@@ -21,4 +21,15 @@
   <RouteRule name="default">
     <TargetEndpoint>default</TargetEndpoint>
   </RouteRule>
+  <PreFlow name="PreFlow">
+    <Request/>
+    <Response>
+      <Step>
+        <Name>EV-attributes</Name>
+      </Step>
+      <Step>
+        <Name>JavaScript-1</Name>
+      </Step>
+    </Response>
+  </PreFlow>
 </ProxyEndpoint>

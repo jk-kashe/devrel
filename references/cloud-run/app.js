@@ -17,7 +17,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/',(req, res) => {
   var jsonObj = {
     "product": "Live JSON generator",
     "version": 3.1,

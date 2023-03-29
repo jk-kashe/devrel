@@ -15,4 +15,11 @@
  limitations under the License.
 -->
 <APIProxy revision="1" name="cloud-run-v0">
+  <Policies>
+    <Policy>EV-attributes</Policy>
+    <Policy>JavaScript-1</Policy>
+  </Policies>
+  <Resources>
+    <Resource>jsc://JavaScript-1.js</Resource>
+  </Resources>
 </APIProxy>

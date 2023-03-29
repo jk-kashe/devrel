@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables continueOnError="false" enabled="true" name="EV-attributes">
+  <DisplayName>EV-attributes</DisplayName>
+  <JSONPayload>
+    <Variable name="personName" type="string">
+      <JSONPath>$.person.name</JSONPath>
+    </Variable>
+    <Variable name="releaseDate" type="string">
+      <JSONPath>$.releaseDate</JSONPath>
+    </Variable>
+  </JSONPayload>
+  <Source clearPayload="false">response.content</Source>
+</ExtractVariables>
